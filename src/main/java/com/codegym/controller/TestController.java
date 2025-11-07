@@ -17,4 +17,14 @@ public class TestController {
     public String getHome() {
         return "test";
     }
+
+
+    //Tân
+    @PostMapping("/post")
+    public String post() {
+        return "test";
+    }
+
+//    hoang
+
 }
