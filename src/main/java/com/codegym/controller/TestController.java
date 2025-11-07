@@ -11,4 +11,10 @@ public class TestController {
     public String get() {
         return "test";
     }
+
+    //duy123
+    @GetMapping("/get")
+    public String getHome() {
+        return "test";
+    }
 }
